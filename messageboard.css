@@ -1,0 +1,13 @@
+/* GREENTEXT */
+.md blockquote {
+border: 0;
+margin: 0;
+color: #789922;
+font-size: 21px;
+display: block
+}
+.md blockquote p:before {
+content: ">";
+float: left;
+display: block
+}
